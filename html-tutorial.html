@@ -26,24 +26,51 @@
 			.bigbutton:hover, .bigbutton:active {
 				background-color: yellowgreen;
 			}
+			.navbar {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: green;
+				border-radius: 10px;
+			}
+			.navitem {
+				float: left;
+			}
+			.mark {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			}
+			.mark:hover {
+				background-color: yellowgreen;
+			}
 			table {
 				font-family: Arial, Helvetica, sans-serif;
 				border-collapse: collapse;
 				width: 85%;
 			}
-
 			td, th {
 				border: 1px solid #cccccc;
 				text-align: left;
 				padding: 8px;
 			}
-
 			tr:nth-child(even) {
 				background-color: #cccccc;
 			}
 		</style>
 	</head>	
 	<body>
+		<ul class="navbar">
+			<li class="navitem"><a class="mark" href="#info">Information</a></li>
+			<li class="navitem"><a class="mark" href="#art">Art</a></li>
+			<li class="navitem"><a class="mark" href="#images">Images</a></li>
+			<li class="navitem"><a class="mark" href="#contact">Contact</a></li>
+		</ul>
+
 		<h1 id="info"> Avocado Information </h1>
 		<!-- Introduction  + Information -->
 		<p> Avocados come from the avocado tree and are technically berries. They have one large pit. Avocados are both <strong>delicious</strong> and <strong>nutritious</strong>. </p>
@@ -143,8 +170,5 @@
 			<br />
 			<a class="bigbutton" href="mailto:eli.browne.23@bishops.com"> Email </a>
 		</address>
-
-		<hr />
-		<h2 style="border: 1px solid green; padding: 2px;"> Other Elements </h2>
 	</body>
 </html>
