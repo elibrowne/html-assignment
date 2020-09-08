@@ -37,6 +37,20 @@
 			.navitem {
 				float: left;
 			}
+			.themeswap {
+				float: right;
+				padding: 14px 16px;
+			}
+			.themebutton {
+				border: none;
+				background-color: green;
+				border-radius: 3px;
+				color: white;
+			}
+			.themebutton:hover {
+				background-color: yellowgreen;
+				border-radius: 3px;
+			}
 			.mark {
 				display: block;
 				color: white;
@@ -64,11 +78,28 @@
 		</style>
 	</head>	
 	<body>
+		<script>
+			var theme = 'light'; // default theme to start
+			// JavaScript for "dark mode switch"
+			function switchTheme() {
+				if (theme == 'light') {
+					// Switch to dark mode.
+					// Background of website
+					document.getElementsByTagName("body")[0].style.backgroundColor = "black";
+					// TODO Is there a for each loop in JavaScript?
+					var pTags = document.getElementsByTagName("p");
+					for (var i = 0; i < pTags.length; i++) {
+						pTags[i].style.color = "white";
+					}
+				}
+			}
+		</script>
 		<ul class="navbar">
 			<li class="navitem"><a class="mark" href="#info">Information</a></li>
 			<li class="navitem"><a class="mark" href="#art">Art</a></li>
 			<li class="navitem"><a class="mark" href="#images">Images</a></li>
 			<li class="navitem"><a class="mark" href="#contact">Contact</a></li>
+			<li class="themeswap"><button class="themebutton" onclick="switchTheme();">&#9790;</button></li>
 		</ul>
 
 		<h1 id="info"> Avocado Information </h1>
@@ -77,7 +108,7 @@
 		<img title="Two avocados, one cut open" src="avocado.png" alt="A picture of two avocados, one cut open" width="530" height="424" />
 
 		<h2> History </h2>
-		<p> Avocados originated in <strong>south-central Mexico</strong>. The word avocado comes from <i>aguacate</i> in Spanish, which is based off of Nahuatl's <i>&#257huacatl</i>.</p>
+		<p> Avocados originated in <strong>south-central Mexico</strong>. The word avocado comes from <i>aguacate</i> in Spanish, which is based off of Nahuatl's <i>&#257;huacatl</i>.</p>
 		
 		<h2> Nutrition </h2>
 		<p> Avocados have many <strong>nutrients</strong> and <strong>vitamins</strong>, and they are generally a very healthy food. These benefits include B vitamins, vitamin C, vitamin E, and potassium - in fact, avocados <q cite="https://www.healthline.com/nutrition/12-proven-benefits-of-avocado#3">contain more potassium than bananas</q>. Avocados are known for their healthy fats and fiber. </p>
