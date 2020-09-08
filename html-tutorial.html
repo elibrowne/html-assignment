@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!-- QUESTIONS -->
+<!-- 1. Do tags inside of tags count? Ie -- table, tr, td = 3 or 1? -->
+<!-- 2. JavaScript is currently within the html document; is that ok? -->
+<!-- 3. Does what I have with the dark mode/light mode switch qualify as "accesibility"/advanced HTML? If not, what should I do? -->
 <html lang="en-US">
 	<head>
 		<title> All About Avocados </title>
@@ -14,6 +18,10 @@
 			p {
 				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 			}
+			img {
+				border-radius: 3%;
+			}
+
 			.bigbutton:link, .bigbutton:visited {
 				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 				background-color: green;
@@ -27,6 +35,7 @@
 			.bigbutton:hover, .bigbutton:active {
 				background-color: yellowgreen;
 			}
+
 			.navbar {
 				list-style-type: none;
 				margin: 0;
@@ -64,10 +73,11 @@
 				background-color: yellowgreen;
 				/* TODO Make hover line up with element */
 			}
+
 			table {
 				font-family: Arial, Helvetica, sans-serif;
 				border-collapse: collapse;
-				width: 85%;
+				width: 100%;
 			}
 			td, th {
 				border: 1px solid #cccccc;
@@ -136,6 +146,7 @@
 				}
 			}
 		</script>
+
 		<ul class="navbar">
 			<li class="navitem"><a class="mark" href="#info">Information</a></li>
 			<li class="navitem"><a class="mark" href="#art">Art</a></li>
@@ -147,7 +158,6 @@
 		<h1 id="info"> Avocado Information </h1>
 		<!-- Introduction  + Information -->
 		<p> Avocados come from the avocado tree and are technically berries. They have one large pit. Avocados are both <strong>delicious</strong> and <strong>nutritious</strong>. </p>
-		<img title="Two avocados, one cut open" src="avocado.png" alt="A picture of two avocados, one cut open" width="530" height="424" />
 
 		<h2> History </h2>
 		<p> Avocados originated in <strong>south-central Mexico</strong>. The word avocado comes from <i>aguacate</i> in Spanish, which is based off of Nahuatl's <i>&#257;huacatl</i>.</p>
@@ -205,10 +215,10 @@
 
 		<hr /> <!-- Separates the images from the avocado art -->
 
-		<h1 id="images"> More Avocado Images</h1>
+		<h1 id="images"> Avocado Images</h1>
 		<!-- These images are sourced from the web -->
-		<img src="https://foodrevolution.org/wp-content/uploads/iStock-854389420-tashka2000-featured-Recovered.jpg" alt="avocados" width=1050 height=565 />
-		<img src="https://images.food52.com/ayNf5psIRMf9Y3Du-I2ir3Hr1r4=/fit-in/1200x1200/70b5b54b-32d9-40be-9bc5-8b43eb9020f1--2016-0525_avocados_james-ransom-107.jpg" alt="avocados on a table" />
+		<img src="https://foodrevolution.org/wp-content/uploads/iStock-854389420-tashka2000-featured-Recovered.jpg" alt="avocados" width="100%" height="52.5%" />
+		<img src="https://images.food52.com/ayNf5psIRMf9Y3Du-I2ir3Hr1r4=/fit-in/1200x1200/70b5b54b-32d9-40be-9bc5-8b43eb9020f1--2016-0525_avocados_james-ransom-107.jpg" alt="avocados on a table" width="100%" height="66%" />
 
 		<hr />
 
