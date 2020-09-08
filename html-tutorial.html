@@ -15,6 +15,7 @@
 				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 			}
 			.bigbutton:link, .bigbutton:visited {
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 				background-color: green;
 				color: white;
 				padding: 15px 25px;
@@ -61,6 +62,7 @@
 			}
 			.mark:hover {
 				background-color: yellowgreen;
+				/* TODO Make hover line up with element */
 			}
 			table {
 				font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +75,7 @@
 				padding: 8px;
 			}
 			tr:nth-child(even) {
-				background-color: #cccccc;
+				background-color: #aaaaaa;
 			}
 		</style>
 	</head>	
@@ -87,10 +89,50 @@
 					// Background of website
 					document.getElementsByTagName("body")[0].style.backgroundColor = "black";
 					// TODO Is there a for each loop in JavaScript?
+					// Change all of the ps and uls to white text
+					// p tags
 					var pTags = document.getElementsByTagName("p");
 					for (var i = 0; i < pTags.length; i++) {
 						pTags[i].style.color = "white";
 					}
+					// ul tags
+					var ulTags = document.getElementsByTagName("ul");
+					for (var i = 0; i < ulTags.length; i++) {
+						ulTags[i].style.color = "white";
+					}
+					// For ol, address, and table, I'm using an id because there's
+					// only one of each.
+					document.getElementById("recipe").style.color = "white";
+					document.getElementById("nutrition").style.color = "white";
+					document.getElementById("address").style.color = "white";
+					// Change the variable to dark because it's now switching to
+					// dark mode
+					theme = "dark";
+				}
+				else {
+					// Switch to light mode.
+					// Background of website
+					document.getElementsByTagName("body")[0].style.backgroundColor = "white";
+					// TODO Is there a for each loop in JavaScript?
+					// Change all of the ps and uls to white text
+					// p tags
+					var pTags = document.getElementsByTagName("p");
+					for (var i = 0; i < pTags.length; i++) {
+						pTags[i].style.color = "black";
+					}
+					// ul tags
+					var ulTags = document.getElementsByTagName("ul");
+					for (var i = 0; i < ulTags.length; i++) {
+						ulTags[i].style.color = "black";
+					}
+					// For ol, address, and table, I'm using an id because there's
+					// only one of each.
+					document.getElementById("recipe").style.color = "black";
+					document.getElementById("nutrition").style.color = "black";
+					document.getElementById("address").style.color = "black";
+					// Change the variable to light because it's now switching to
+					// light mode
+					theme = "light";
 				}
 			}
 		</script>
@@ -99,7 +141,7 @@
 			<li class="navitem"><a class="mark" href="#art">Art</a></li>
 			<li class="navitem"><a class="mark" href="#images">Images</a></li>
 			<li class="navitem"><a class="mark" href="#contact">Contact</a></li>
-			<li class="themeswap"><button class="themebutton" onclick="switchTheme();">&#9790;</button></li>
+			<li class="themeswap"><button id="ts" class="themebutton" onclick="switchTheme();">&#9790;</button></li>
 		</ul>
 
 		<h1 id="info"> Avocado Information </h1>
@@ -112,7 +154,7 @@
 		
 		<h2> Nutrition </h2>
 		<p> Avocados have many <strong>nutrients</strong> and <strong>vitamins</strong>, and they are generally a very healthy food. These benefits include B vitamins, vitamin C, vitamin E, and potassium - in fact, avocados <q cite="https://www.healthline.com/nutrition/12-proven-benefits-of-avocado#3">contain more potassium than bananas</q>. Avocados are known for their healthy fats and fiber. </p>
-		<table>
+		<table id="nutrition">
 			<tr>
 				<th> Nutrient </th>
 				<th> Amount in per 100g avocado </th>
@@ -144,8 +186,8 @@
 			<li> Tacos </li> 
 			<li> Avocado Toast </li>
 		</ul>
-		<a href="https://www.allrecipes.com/recipe/14064/easy-guacamole/"> Here is one recipe for guacamole from AllRecipes. </a>
-		<ol>
+		<a class="bigbutton" href="https://www.allrecipes.com/recipe/14064/easy-guacamole/"> Here is one recipe for guacamole from AllRecipes. </a>
+		<ol id="recipe">
 			<li> Mash 2 avocados in a bowl. </li> 
 			<li> Stir in 1 chopped onion and one minced clove of garlic. </li>
 			<li> Add in a chopped tomato. </li>
@@ -171,7 +213,7 @@
 		<hr />
 
 		<h1 id="contact"> Contact </h2>
-		<address>
+		<address id="address">
 			Written by Eli Browne. <br />
 			Avocado consumer <br />
 			Del Mar, California <br />
