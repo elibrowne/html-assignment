@@ -10,7 +10,7 @@ I have a navbar, some layout work, and a button to toggle dark and light mode on
 ## Noted Issue
 The navbar doesn't highlight exactly on the center of the buttons when you hover over it when using Safari on my computer. It does work with Firefox and Chrome, which I believe is what matters (?); I think it's a bit of a fluke.
 
-## Requirements Checklist (for me)<br/>
+## Requirements Checklist (for me to keep track of everything)<br/>
 *Unordered list:* recipe ideas<br/>
 *Ordered list:* recipe instructions<br/>
 *Table with tr, th and td elements:* nutrition facts<br/>
