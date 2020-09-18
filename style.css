@@ -12,6 +12,9 @@ p {
 img {
 	border-radius: 3%;
 }
+.imgcolumn {
+	flex: 50%;
+}
 li {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
