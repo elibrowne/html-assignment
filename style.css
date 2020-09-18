@@ -83,3 +83,7 @@ td, th {
 tr:nth-child(even) {
 	background-color: #aaaaaa;
 }
+#hg {
+	font-style: italic;
+	color: green;
+}
