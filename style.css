@@ -1,0 +1,85 @@
+h1 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: yellowgreen;
+}
+h2 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: yellowgreen;
+}
+p {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img {
+	border-radius: 3%;
+}
+li {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+address {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bigbutton:link, .bigbutton:visited {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: green;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+}
+.bigbutton:hover, .bigbutton:active {
+	background-color: yellowgreen;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: green;
+	border-radius: 10px;
+}
+.navitem {
+	float: left;
+}
+.themeswap {
+	float: right;
+	padding: 14px 16px;
+}
+.themebutton {
+	border: none;
+	background-color: green;
+	border-radius: 3px;
+	color: white;
+}
+.themebutton:hover {
+	background-color: yellowgreen;
+	border-radius: 3px;
+}
+.mark {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px 14px 16px;
+	text-decoration: none;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mark:hover {
+	background-color: yellowgreen;
+}
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+td, th {
+	border: 1px solid #cccccc;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+	background-color: #aaaaaa;
+}
