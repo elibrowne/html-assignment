@@ -65,7 +65,7 @@ address {
 	display: block;
 	color: white;
 	text-align: center;
-	padding-top: 14px 16px 14px 16px;
+	padding: 14px 16px 14px 16px;
 	text-decoration: none;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
