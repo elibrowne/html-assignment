@@ -1,8 +1,4 @@
-h1 {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color: yellowgreen;
-}
-h2 {
+h1, h2 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: yellowgreen;
 }
@@ -20,6 +16,7 @@ li {
 }
 address {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 10px;
 }
 
 .bigbutton:link, .bigbutton:visited {
