@@ -5,7 +5,7 @@ My HTML webpage assignment is a website about avocados.
 f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bug, added README")
 
 ## Commit to use for CSS
-d879fb5 (it's called "README, small CSS edits")
+33fb6c2 (it's called "Edited README a bit")
 
 ## Advanced HTML
 I have a navbar, some layout work, and a button to toggle dark and light mode on my website, the last of which is the most advanced feature of my page.
@@ -20,7 +20,7 @@ The navbar doesn't highlight exactly on the center of the buttons when you hover
 *Link to an external website out in the wider world:* links to AllRecipes<br/>
 *Internal link to an anchor on the page:* navbar links to #art, #images, etc<br/>
 *Image:* two images in the image section<br/>
-*Iframe:* poem "Eating the Avocado"<br/>
+*iframe:* poem "Eating the Avocado"<br/>
 *Some kind of Unicode character:* a with macron in Nahuatl word, moon for the toggle view button<br/>
 
 *Twenty tags:* ul, li, a, button, h1, p, h2, strong, em, q, table, tr, th, td, ol, hr, iframe, img, address, br = 20<br/>
