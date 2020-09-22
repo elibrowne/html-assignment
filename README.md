@@ -28,7 +28,7 @@ Not including basics like html, script, style, head, body, meta, etc.
 
 ## CSS Requirements (for me so I don't stress haha)<br/>
 *External style sheet:* style.css<br/>
-*20 different CSS style attributes:* there are 92 lines of CSS and most of them are style attributes.<br/>
+*20 different CSS style attributes:* there are 92 lines of CSS and 21 unique style attributes (but I used many style attributes multiple times but in different ways throughout the website).<br/>
 *Class:* Navbar has a bunch of classes<br/>
 *ID:* id="hg" in the span to make the 100g italics and green<br/>
 *No internal style sheet:* unless I am blind, there isn't one :)<br/>
