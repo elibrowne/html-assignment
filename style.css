@@ -1,32 +1,35 @@
 h1, h2 {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color: yellowgreen;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*1*/
+	color: yellowgreen; /*2*/
 }
 p {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 img {
-	border-radius: 3%;
+	border-radius: 3%; /*3*/
+	border-width: 3px; /*4*/
+	border-color: yellowgreen; /*5*/
+	border-style: solid; /*6*/
 }
 .imgcolumn {
-	flex: 50%;
+	flex: 50%; /*7*/
 }
 li {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 address {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	margin-left: 10px;
+	margin-left: 10px; /*8*/
 }
 
 .bigbutton:link, .bigbutton:visited {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	background-color: green;
+	background-color: green; /*9*/
 	color: white;
-	padding: 15px 25px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+	padding: 15px 25px; /*10*/
+	text-align: center; /*11*/
+	text-decoration: none; /*12*/
+	display: inline-block; /*13*/
 	border-radius: 10px;
 }
 .bigbutton:hover, .bigbutton:active {
@@ -34,22 +37,22 @@ address {
 }
 
 .navbar {
-	list-style-type: none;
-	margin: 0;
+	list-style-type: none; /*14*/
+	margin: 0; /*15*/
 	padding: 0;
-	overflow: hidden;
+	overflow: hidden; /*16*/
 	background-color: green;
 	border-radius: 10px;
 }
 .navitem {
-	float: left;
+	float: left; /*17*/
 }
 .themeswap {
 	float: right;
 	padding: 14px 16px;
 }
 .themebutton {
-	border: none;
+	border: none; /* not counting it here but see later */
 	background-color: green;
 	border-radius: 3px;
 	color: white;
@@ -62,7 +65,7 @@ address {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px 14px 16px;
+	padding-top: 14px 16px 14px 16px;
 	text-decoration: none;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -72,18 +75,19 @@ address {
 
 table {
 	font-family: Arial, Helvetica, sans-serif;
-	border-collapse: collapse;
-	width: 100%;
+	border-collapse: collapse; /*18*/
+	width: 100%; /*19*/
 }
 td, th {
-	border: 1px solid #cccccc;
+	border: 1px solid #cccccc; /*20*/
 	text-align: left;
 	padding: 8px;
 }
 tr:nth-child(even) {
 	background-color: #aaaaaa;
 }
+
 #hg {
-	font-style: italic;
+	font-style: italic; /*21*/
 	color: green;
 }
