@@ -5,7 +5,7 @@ My HTML webpage assignment is a website about avocados.
 f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bug, added README")
 
 ## Commit to use for CSS
-???? god knows
+d879fb5 (it's called "README, small CSS edits")
 
 ## Advanced HTML
 I have a navbar, some layout work, and a button to toggle dark and light mode on my website, the last of which is the most advanced feature of my page.
