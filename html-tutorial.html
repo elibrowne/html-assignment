@@ -136,6 +136,7 @@
 				</div>
 				<div class="col-lg-3 col-sm-6 col-12">
 					<a class="bigbutton" target="_blank" href="https://www.allrecipes.com/recipe/14064/easy-guacamole/" style="color: white;"> Here is one recipe for guacamole from AllRecipes. </a>
+					<br /><br /> <p> The recipe is summarized on this website, too, in case you don't care for the details. </p> 
 				</div>
 				<div class="col-lg-3 col-sm-6 col-12">
 					<ol id="recipe">
@@ -163,14 +164,32 @@
 
 			<h1 id="images"> Avocado Images</h1>
 			<!-- These images are sourced from the web -->
-			<div style="display: flex;">
-				<div class="imgcolumn">
-					<img src="https://foodrevolution.org/wp-content/uploads/iStock-854389420-tashka2000-featured-Recovered.jpg" alt="Avocados that have been cut open" width="98%" />
+
+			<div id="imgs" class="carousel slide" data-ride="carousel">
+
+				<ul class="carousel-indicators">
+					<li data-target="#imgs" data-slide-to="0" class="active"></li>
+					<li data-target="#imgs" data-slide-to="1"></li>
+				</ul>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="https://foodrevolution.org/wp-content/uploads/iStock-854389420-tashka2000-featured-Recovered.jpg" alt="Avocados that have been cut open" width="98%" />
+					</div>
+					<div class="carousel-item">
+						<img src="https://images.food52.com/ayNf5psIRMf9Y3Du-I2ir3Hr1r4=/fit-in/1200x1200/70b5b54b-32d9-40be-9bc5-8b43eb9020f1--2016-0525_avocados_james-ransom-107.jpg" alt="Avocados on a table" width="98%" />
+					</div>
 				</div>
-				<div class="imgcolumn">
-					<img src="https://images.food52.com/ayNf5psIRMf9Y3Du-I2ir3Hr1r4=/fit-in/1200x1200/70b5b54b-32d9-40be-9bc5-8b43eb9020f1--2016-0525_avocados_james-ransom-107.jpg" alt="Avocados on a table" width="98%" />
-				</div>
+
+				<a class="carousel-control-prev" href="#imgs" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#imgs" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+
 			</div>
+			
 			<hr />
 
 			<h1 id="contact"> Contact </h1>

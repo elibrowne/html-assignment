@@ -11,7 +11,7 @@ f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bu
 I have a navbar, some layout work, and a button to toggle dark and light mode on my website, the last of which is the most advanced feature of my page.
 
 ## Noted Issue
-The navbar doesn't highlight exactly on the center of the buttons when you hover over it when using Safari on my computer. It does work with Firefox and Chrome, which I believe is what matters (?); I think it's a bit of a fluke.
+The navbar on the non-Bootstrap version doesn't highlight exactly on the center of the buttons when you hover over it when using Safari on my computer. It does work with Firefox and Chrome, which I believe is what matters (?); I think it's a bit of a fluke.
 
 ## Requirements Checklist (for me to keep track of everything)<br/>
 *Unordered list:* recipe ideas<br/>
@@ -33,3 +33,9 @@ Not including basics like html, script, style, head, body, meta, etc.
 *ID:* id="hg" in the span to make the 100g italics and green<br/>
 *No internal style sheet:* unless I am blind, there isn't one :)<br/>
 *CSS box model:* I have examples of padding in my navbar and I used image columns. I used margin in the address. I struggled greatly with adding the border because it is not attractive whatsoever but it is around an image.
+
+## Bootstrap Requirements Checklist
+*Bootstrap rows/columns:* under the recipes h2, three different tables (large+ = 4 columns, small+ = 2 columns, tiny = 1 column)
+*Navbar:* see top of website
+*Navbar fancy item:* collapsible
+*Five additional elements:* jumbotron (see nutrition), table (see nutrition), 
