@@ -1,6 +1,9 @@
 # Avocado Website
 My HTML webpage assignment is a website about avocados.
 
+## BOOTSTRAP COMMIT -- IMPORTANT: I PUT ALL OF MY BOOTSTRAP IN A "BOOTSTRAP" BRANCH. SORRY FOR ANY INCONVENIENCE. IF NEEDED, I CAN MERGE THEM. 
+The Bootstrap commit is b8c0769 (it's called like "Added alert, finished five classes").
+
 ## Commit to use for HTML
 f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bug, added README")
 
