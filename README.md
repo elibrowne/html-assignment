@@ -38,4 +38,4 @@ Not including basics like html, script, style, head, body, meta, etc.
 *Bootstrap rows/columns:* under the recipes h2, three different tables (large+ = 4 columns, small+ = 2 columns, tiny = 1 column)
 *Navbar:* see top of website
 *Navbar fancy item:* collapsible
-*Five additional elements:* jumbotron (see nutrition), table (see nutrition), 
+*Five additional elements:* jumbotron (see nutrition), table (see nutrition), carousel (see images), badge (see "Recipes" h2), 
