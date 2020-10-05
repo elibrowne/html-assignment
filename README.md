@@ -8,7 +8,7 @@ f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bu
 33fb6c2 (it's called "Edited README a bit")
 
 ## Commit to use for Bootstrap
-b8c0769 (it's called like "Added alert, finished five classes")
+b8c0769 (it's called like "Added alert, finished five classes"). Note: it is on a new branch called "bootstrap", it is **not** on the master branch (sorry if that makes things harder! I can merge them if you'd like, but I wanted to separate the two websites)
 
 ## Advanced HTML
 I have a navbar, some layout work, and a button to toggle dark and light mode on my website, the last of which is the most advanced feature of my page.
