@@ -4,6 +4,7 @@ body, html {
 	font-family: "Inter", sans-serif;
 }
 
+/* Styling for the "landing page" */
 .top-image {
 	/* For making the image cover the whole screen */
 	margin: 0; /* image should be across the entire webpage */
@@ -45,3 +46,27 @@ body, html {
 	color: white;
 	font-size: 200%;
 }
+
+/* Styling for the information cards */
+.info-card {
+	height: 350px;
+	padding: 30px;
+	color: white;
+}
+.info-card h1 {
+	font-weight: bolder;
+}
+.info-card p {
+	font-weight: lighter;
+	text-transform: bottom;
+}
+.info-image {
+	height: 350px;
+}
+.info-image img {
+	object-fit: cover;
+	height: 350px;
+ }
+ .row {
+	 margin-bottom: 20px;
+ }
