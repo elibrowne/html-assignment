@@ -1,0 +1,47 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: "Inter", sans-serif;
+}
+
+.top-image {
+	/* For making the image cover the whole screen */
+	margin: 0; /* image should be across the entire webpage */
+  	height: 100%;
+  	background-image: url("avocado-cover-page.jpg"); /* local file */
+  	background-position: center;
+  	background-repeat: no-repeat; /* no tiny images repeating */
+	background-size: cover; /* adapts somewhat to the window, doesn't distort */
+}
+.title-text {
+	color: white;
+	text-align: center;
+	display: flex; /* flex display makes it easy to center the title */
+	justify-content: center;
+	height: 80%; /* so it uses the entire height of the webpage to center */
+	align-items: center;
+}
+.title-text h1 {
+	font-size: 625%;
+	font-weight: bolder;
+}
+.learn-more {
+	height: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.learn-more a {
+	color: white;
+	font-size: 200%;
+}
+.discover-recipes {
+	height: 19%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.discover-recipes a {
+	color: white;
+	font-size: 200%;
+}
