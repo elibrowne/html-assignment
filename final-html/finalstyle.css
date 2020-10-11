@@ -3,6 +3,10 @@ body, html {
 	margin: 0;
 	font-family: "Inter", sans-serif;
 }
+ol { /* I'm not sure why it didn't apply in body. */
+	font-family: "Inter", sans-serif;
+	font-weight: lighter;
+}
 
 /* Styling for the "landing page" */
 .top-image {
@@ -23,7 +27,7 @@ body, html {
 	align-items: center;
 }
 .title-text h1 {
-	font-size: 625%;
+	font-size: 13vw; /* responsive: if there is a way to create a max size, I'd do it */
 	font-weight: bolder;
 }
 .learn-more {
@@ -49,16 +53,35 @@ body, html {
 	font-weight: lighter;
 }
 
+/* Styling for the colored dots */
+.gdot {
+	color: #88cc00;
+}
+.ydot {
+	color: #b3af24;
+}
+.gldot {
+	color: #aae238;
+}
+.yldot {
+	color: #e0db2d;
+}
+
 /* Styling for the information cards */
 .info-card {
 	height: 350px;
 	padding: 30px;
 	color: white;
 }
-.info-card h1 {
+.recipe-card {
+	height: 500px;
+	padding: 30px;
+	color: white;
+}
+.info-card h1, .recipe-card h1 {
 	font-weight: bolder;
 }
-.info-card p {
+.info-card p, .recipe-card p {
 	font-weight: lighter;
 	text-transform: bottom;
 }
@@ -69,6 +92,41 @@ body, html {
 	object-fit: cover;
 	height: 350px;
  }
+ .recipe-image img {
+	object-fit: cover;
+	height: 500px;
+ }
  .row {
-	 margin-bottom: 20px;
+	margin-bottom: 20px;
+ }
+ .link-button {
+	font-size: large;
+	font-weight: lighter;
+	padding: 10px;
+	background-color: olivedrab;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+ }
+ .link-button:hover {
+	color: white;
+	background-color: #83ad2b;
+ }
+
+ /* Responsive sizing for recipe cards */
+ @media (min-width: 576px) { /* >=576px is small in Bootstrap 4 grid */
+	.recipe-card {
+		height: 400px; /* when not on a mobile/skinny screen, it doesn't need to be as tall. */
+	}
+	.recipe-image img {
+		height: 400px;
+	}
+ }
+ @media (max-width: 575px) { /* for mobile viewing */
+	 .recipe-card { 
+		 height: 500px; /* more height to accomodate text */
+	 }
+	 .recipe-image img {
+		 height: 500px;
+	 }
  }
