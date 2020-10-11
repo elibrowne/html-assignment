@@ -7,6 +7,12 @@ ol { /* I'm not sure why it didn't apply in body. */
 	font-family: "Inter", sans-serif;
 	font-weight: lighter;
 }
+h1 {
+	font-weight: bolder;
+}
+p {
+	font-weight: lighter;
+}
 
 /* Styling for the "landing page" */
 .top-image {
@@ -28,7 +34,6 @@ ol { /* I'm not sure why it didn't apply in body. */
 }
 .title-text h1 {
 	font-size: 13vw; /* responsive: if there is a way to create a max size, I'd do it */
-	font-weight: bolder;
 }
 .learn-more {
 	height: 1%;
@@ -78,13 +83,6 @@ ol { /* I'm not sure why it didn't apply in body. */
 	padding: 30px;
 	color: white;
 }
-.info-card h1, .recipe-card h1 {
-	font-weight: bolder;
-}
-.info-card p, .recipe-card p {
-	font-weight: lighter;
-	text-transform: bottom;
-}
 .info-image {
 	height: 350px;
 }
@@ -99,21 +97,28 @@ ol { /* I'm not sure why it didn't apply in body. */
  .row {
 	margin-bottom: 20px;
  }
- .link-button {
+ .link-button, .source-button {
 	font-size: large;
 	font-weight: lighter;
 	padding: 10px;
 	background-color: olivedrab;
 	color: white;
-	position: absolute;
-	bottom: 30px;
  }
- .link-button:hover {
+ .link-button:hover, .source-button:hover {
 	color: white;
 	background-color: #83ad2b;
  }
-
+ .link-button {
+	position: absolute;
+	bottom: 30px;
+ }
  /* Responsive sizing for recipe cards */
+ /* I'm using this because I want them to always be the same height, so I can't
+	set the height of the cards to however tall the content is because the 
+	content of each card is different. I've resized a ton, and this seemed like
+	the best working solution -- there isn't a ton of empty space on bigger 
+	windows, and smaller windows have enough space for all the content.
+ */
  @media (min-width: 576px) { /* >=576px is small in Bootstrap 4 grid */
 	.recipe-card {
 		height: 400px; /* when not on a mobile/skinny screen, it doesn't need to be as tall. */
