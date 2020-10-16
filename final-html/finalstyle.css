@@ -83,6 +83,11 @@ p {
 	padding: 30px;
 	color: white;
 }
+.nutrient-card {
+	height: 400px;
+	padding: 30px;
+	color: white;
+}
 .info-image {
 	height: 350px;
 }
@@ -93,6 +98,10 @@ p {
  .recipe-image img {
 	object-fit: cover;
 	height: 500px;
+ }
+ .nutrient-image img {
+	 object-fit: cover;
+	 height: 400px;
  }
  .row {
 	margin-bottom: 20px;
@@ -110,7 +119,7 @@ p {
  }
  .link-button {
 	position: absolute;
-	bottom: 30px;
+	bottom: 27px;
  }
  /* Responsive sizing for recipe cards */
  /* I'm using this because I want them to always be the same height, so I can't
