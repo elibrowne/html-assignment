@@ -3,9 +3,13 @@
 	<head>
 		<title> All About Avocados </title>
 		<meta charset="UTF-8" />
-		<link href="style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="style.css" />
 		<script>
-			var theme = 'light'; // default theme to start
+			/*var theme = 'light'; // default theme to start
 			// JavaScript for "dark mode switch"
 			function switchTheme() {
 				if (theme == 'light') {
@@ -58,98 +62,145 @@
 					// light mode
 					theme = "light";
 				}
-			}
+			}*/
 		</script>
 	</head>	
 
-	<body>
-		<ul class="navbar">
-			<li class="navitem"><a class="mark" href="#info">Information</a></li>
-			<li class="navitem"><a class="mark" href="#art">Art</a></li>
-			<li class="navitem"><a class="mark" href="#images">Images</a></li>
-			<li class="navitem"><a class="mark" href="#contact">Contact</a></li>
-			<li class="themeswap"><button id="ts" class="themebutton" onclick="switchTheme();">&#9790;</button></li>
-		</ul>
-
-		<h1 id="info"> Avocado Information </h1>
-		<!-- Introduction  + Information -->
-		<p> Avocados come from the avocado tree and are technically berries. They have one large pit. Avocados are both <strong>delicious</strong> and <strong>nutritious</strong>. </p>
-
-		<h2> History </h2>
-		<p> Avocados originated in <strong>south-central Mexico</strong>. The word avocado comes from <em>aguacate</em> in Spanish, which is based off of Nahuatl's <em>&#257;huacatl</em>.</p>
-		
-		<h2> Nutrition </h2>
-		<p> Avocados have many <strong>nutrients</strong> and <strong>vitamins</strong>, and they are generally a very healthy food. These benefits include B vitamins, vitamin C, vitamin E, and potassium - in fact, avocados <q cite="https://www.healthline.com/nutrition/12-proven-benefits-of-avocado#3">contain more potassium than bananas</q>. Avocados are known for their healthy fats and fiber. </p>
-		<table id="nutrition">
-			<tr>
-				<th> Nutrient </th>
-				<th> Amount in <span id="hg">100g</span> avocado </th>
-			</tr>
-			<tr>
-				<td> Fiber </td>
-				<td> 6.7 g </td>
-			</tr>
-			<tr>
-				<td> Monounsaturated Fat </td>
-				<td> 9.8 g </td>
-			</tr>
-			<tr>
-				<td> Protein </td>
-				<td> 2 g </td>
-			</tr>
-			<tr>
-				<td> Potassium </td>
-				<td> 485 mg </td>
-			</tr>
-		</table>
-
-		<h2> Recipes </h2>
-		<p> Avocados are a perfect addition to many recipes! Some great recipes include: </p>
-		<ul>
-			<li> Salads </li>
-			<li> Smoothies </li>
-			<li> Guacamole </li>
-			<li> Tacos </li> 
-			<li> Avocado Toast </li>
-		</ul>
-		<a class="bigbutton" target="_blank" href="https://www.allrecipes.com/recipe/14064/easy-guacamole/"> Here is one recipe for guacamole from AllRecipes. </a>
-		<ol id="recipe">
-			<li> Mash 2 avocados in a bowl. </li> 
-			<li> Stir in 1 chopped onion and one minced clove of garlic. </li>
-			<li> Add in a chopped tomato. </li>
-			<li> Juice a lime and add the lime juice to the mixture. </li>
-			<li> Add salt and pepper as you'd like! </li>
-		</ol>
-		<p> Find some more recipes here: </p>
-		<a class="bigbutton" target="_blank" href="https://www.allrecipes.com/recipes/1367/fruits-and-vegetables/fruits/avocados/" title="Visit AllRecipes"> Avocado Recipes on AllRecipes </a>
-		
-		<hr /> <!-- Separates the avocado art from the avocado info-->
-
-		<h1 id="art"> Avocado Art </h1>
-
-		<iframe src="https://www.poetryfoundation.org/poems/89655/eating-the-avocado" title="Carrie Fountain's 'Eating the Avocado'"></iframe>
-
-		<hr /> <!-- Separates the images from the avocado art -->
-
-		<h1 id="images"> Avocado Images</h1>
-		<!-- These images are sourced from the web -->
-		<div style="display: flex;">
-			<div class="imgcolumn">
-				<img src="https://foodrevolution.org/wp-content/uploads/iStock-854389420-tashka2000-featured-Recovered.jpg" alt="Avocados that have been cut open" width="98%" />
+	<body style="background-color: yellowgreen;">
+	  <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" style="background-color: yellowgreen;">
+			<a class="navbar-brand" href="#">All About Avocados </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseContent">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="collapseContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<li><a class="nav-link" href="#info">Information</a></li>
+					<li><a class="nav-link" href="#art">Art</a></li>
+					<li><a class="nav-link" href="#images">Images</a></li>
+					<li><a class="nav-link" href="#contact">Contact</a></li>
+				</li>
 			</div>
-			<div class="imgcolumn">
-				<img src="https://images.food52.com/ayNf5psIRMf9Y3Du-I2ir3Hr1r4=/fit-in/1200x1200/70b5b54b-32d9-40be-9bc5-8b43eb9020f1--2016-0525_avocados_james-ransom-107.jpg" alt="Avocados on a table" width="98%" />
-			</div>
-		</div>
-		<hr />
+		</nav>
 
-		<h1 id="contact"> Contact </h1>
-		<address id="address">
-			Written by Eli Browne. <br />
-			Avocado consumer <br />
-			Del Mar, California <br />
+
+		<div class="container">
 			<br />
-		</address>
-		<a class="bigbutton" target="_blank" href="mailto:eli.browne.23@bishops.com"> Email </a>
+			<h1 id="info" style="text-align: center;"> Avocado Information </h1> <br />
+			<!-- Introduction  + Information -->
+			<p style="text-align: center;"> Avocados come from the avocado tree and are technically berries. They have one large pit. Avocados are both <strong>delicious</strong> and <strong>nutritious</strong>. </p>
+			<br />
+
+			<h2> History </h2>
+			<p> Avocados originated in <strong>south-central Mexico</strong>. The word avocado comes from <em>aguacate</em> in Spanish, which is based off of Nahuatl's <em>&#257;huacatl</em>.</p>
+			<div class="jumbotron" style="padding: 30px;">
+				<h2 style="color: black;"> Nutrition </h2>
+				<hr>
+				<p style="color: black;"> Avocados have many <strong>nutrients</strong> and <strong>vitamins</strong>, and they are generally a very healthy food. These benefits include B vitamins, vitamin C, vitamin E, and potassium - in fact, avocados <q cite="https://www.healthline.com/nutrition/12-proven-benefits-of-avocado#3">contain more potassium than bananas</q>. Avocados are known for their healthy fats and fiber. </p>
+				<table id="nutrition" class="table">
+					<tr>
+						<th> Nutrient </th>
+						<th> Amount in <span id="hg">100g</span> avocado </th>
+					</tr>
+					<tr>
+						<td> Fiber </td>
+						<td> 6.7 g </td>
+					</tr>
+					<tr>
+						<td> Monounsaturated Fat </td>
+						<td> 9.8 g </td>
+					</tr>
+					<tr>
+						<td> Protein </td>
+						<td> 2 g </td>
+					</tr>
+					<tr>
+						<td> Potassium </td>
+						<td> 485 mg </td>
+					</tr>
+				</table>
+			</div>
+			
+			<h2> Recipes <span class="badge badge-light">Healthy and delicious!</span> </h2>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6 col-12">
+					<p> Avocados are a perfect addition to many recipes! Some great recipes include: </p>
+					<ul>
+						<li> Salads </li>
+						<li> Smoothies </li>
+						<li> Guacamole </li>
+						<li> Tacos </li> 
+						<li> Avocado Toast </li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-12">
+					<a class="bigbutton" target="_blank" href="https://www.allrecipes.com/recipe/14064/easy-guacamole/" style="color: white;"> Here is one recipe for guacamole from AllRecipes. </a>
+					<br /><br /> <p> The recipe is summarized on this website, too, in case you don't care for the details. </p> 
+				</div>
+				<div class="col-lg-3 col-sm-6 col-12">
+					<ol id="recipe">
+						<li> Mash 2 avocados in a bowl. </li> 
+						<li> Stir in 1 chopped onion and one minced clove of garlic. </li>
+						<li> Add in a chopped tomato. </li>
+						<li> Juice a lime and add the lime juice to the mixture. </li>
+						<li> Add salt and pepper as you'd like! </li>
+					</ol>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-12">
+					<p> Find some more recipes here: </p>
+					<a class="bigbutton" target="_blank" href="https://www.allrecipes.com/recipes/1367/fruits-and-vegetables/fruits/avocados/" title="Visit AllRecipes"> Avocado Recipes on AllRecipes </a>
+				</div>
+			</div>
+			<div class="alert alert-warning"> <strong>Watch out!</strong> Don't eat any of these recipes if you are allergic to their ingredients. </div>
+			
+			<br />
+			<hr /> <!-- Separates the avocado art from the avocado info-->
+			
+			<h1 id="art"> Avocado Art </h1>
+
+			<iframe src="https://www.poetryfoundation.org/poems/89655/eating-the-avocado" title="Carrie Fountain's 'Eating the Avocado'"></iframe>
+
+			<hr /> <!-- Separates the images from the avocado art -->
+
+			<h1 id="images"> Avocado Images </h1>
+			<!-- These images are sourced from the web -->
+
+			<div id="imgs" class="carousel slide" data-ride="carousel">
+
+				<ul class="carousel-indicators">
+					<li data-target="#imgs" data-slide-to="0" class="active"></li>
+					<li data-target="#imgs" data-slide-to="1"></li>
+				</ul>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="https://foodrevolution.org/wp-content/uploads/iStock-854389420-tashka2000-featured-Recovered.jpg" alt="Avocados that have been cut open" width="98%" />
+					</div>
+					<div class="carousel-item">
+						<img src="https://images.food52.com/ayNf5psIRMf9Y3Du-I2ir3Hr1r4=/fit-in/1200x1200/70b5b54b-32d9-40be-9bc5-8b43eb9020f1--2016-0525_avocados_james-ransom-107.jpg" alt="Avocados on a table" width="98%" />
+					</div>
+				</div>
+
+				<a class="carousel-control-prev" href="#imgs" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#imgs" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+
+			</div>
+			
+			<hr />
+
+			<h1 id="contact"> Contact </h1>
+			<address id="address">
+				Written by Eli Browne. <br />
+				Avocado consumer <br />
+				Del Mar, California <br />
+				<br />
+			</address>
+			<a class="bigbutton" target="_blank" href="mailto:eli.browne.23@bishops.com"> Email </a>
+		</div>
 	</body>
 </html>

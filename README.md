@@ -10,11 +10,14 @@ f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bu
 ## Commit to use for CSS
 638259944680a59c4d325e9cd7880f02372de661 (it's a merge after "OOPS OOPS I MESSED UP")
 
+## Commit to use for Bootstrap
+b8c0769 (it's called like "Added alert, finished five classes"). **Note:** it is on a new branch called "bootstrap"; it is **not** on the master branch (sorry if that makes things harder! I can merge them if you'd like, but I wanted to separate the two websites)
+
 ## Advanced HTML
 I have a navbar, some layout work, and a button to toggle dark and light mode on my website, the last of which is the most advanced feature of my page.
 
 ## Noted Issue
-The navbar doesn't highlight exactly on the center of the buttons when you hover over it when using Safari on my computer. It does work with Firefox and Chrome, which I believe is what matters (?); I think it's a bit of a fluke.
+The navbar on the non-Bootstrap version doesn't highlight exactly on the center of the buttons when you hover over it when using Safari on my computer. It does work with Firefox and Chrome, which I believe is what matters (?); I think it's a bit of a fluke.
 
 ## Requirements Checklist (for me to keep track of everything)<br/>
 *Unordered list:* recipe ideas<br/>
@@ -36,3 +39,9 @@ Not including basics like html, script, style, head, body, meta, etc.
 *ID:* id="hg" in the span to make the 100g italics and green<br/>
 *No internal style sheet:* unless I am blind, there isn't one :)<br/>
 *CSS box model:* I have examples of padding in my navbar and I used image columns. I used margin in the address. I struggled greatly with adding the border because it is not attractive whatsoever but it is around an image.
+
+## Bootstrap Requirements Checklist
+*Bootstrap rows/columns:* under the recipes h2, three different tables (large+ = 4 columns, small+ = 2 columns, tiny = 1 column)<br/>
+*Navbar:* see top of website<br/>
+*Navbar fancy item:* collapsible<br/>
+*Five additional classes:* jumbotron (see nutrition), table (see nutrition), carousel (see images), badge (see "Recipes" h2), alert (see "Watch out!" below recipes)

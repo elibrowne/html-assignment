@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Bootstrap Links for JavaScript, popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- CSS -- bootstrap, font I like, local style sheet -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+		<link rel="stylesheet" href="finalstyle.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;900&display=swap" rel="stylesheet">
+		<!-- Other head information -->
+		<meta charset="UTF-8" />
+		<title> Avocados </title>
+	</head>
+
+	<body>
+		<div class="top-image">
+			<div class="title-text">
+				<h1> Avocados </h1>
+			</div>
+			<div class="learn-more">
+				<a href="#facts"> learn more </a>
+			</div>
+			<div class="discover-recipes">
+				<a href="#recipes"> discover recipes </a>
+			</div>
+		</div>
+		<br /> <!-- Todo -- better use of whitespace? -->
+		<br />
+		<br />
+		<div class="container-fluid">
+		<h1 id="facts" style="font-weight: bold;"> the facts on avocados <span class="ydot">   &#8226; </span><span class="gdot">&#8226; </span><span class="gldot">&#8226; </span><span class="yldot">&#8226; </span></h1>
+		<br />
+		<!-- Grid with info/image cards -->
+		<div class="row">
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-card" style="background-color: #88cc00;">
+					<h1> get familiar </h1>
+					<br />
+					<p> Avocados are berries from the avocado tree with one large pit. Today, avocados are popular not only for their taste but also their nutritous value. </p>
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-image">
+					<img src="https://www.gardeningknowhow.com/wp-content/uploads/2017/05/zone-8-avocado.jpg" alt="Avocado growing on a tree" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-card" style="background-color: #e0db2d;">
+					<h1> know your roots </h1>
+					<br />
+					<p> Avocados originated in south-central Mexico -- "avocado" comes from <em>aguacate</em> in Spanish, which comes from Nahuatl's <em>&#257;huacatl</em>. </p>
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-image">
+					<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/9/2018/02/avocados-from-mexico-20-years-ft-blog1117.jpg" alt="Multiple avocados without pits" width="100%" height="100%;" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-image">
+					<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/toast-with-avocado-and-cress-royalty-free-image-544809990-1541541433.jpg" alt="Avocados cut and presented" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-card" style="background-color: #b3af24;">
+					<h1> power up </h1>
+					<br />
+					<p> Avocados are very nutritious: you'll find B vitamins, vitamin C, vitamin E, and potassium in the fruit. Avocados are well known for their healthy fats and fiber. </p>
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-image">
+					<img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_3372,w_6000,x_0,y_314/f_auto,q_auto,w_1100/v1554734047/shape/mentalfloss/568503-istock-950322084.jpg" alt="Avocado halves held in hands" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="info-card" style="background-color: #aae238;">
+					<h1> doctor approved </h1>
+					<br />
+					<p> In every avocado, you'll find fiber, monounsaturated fat (the good kind!), B vitamins, and even protein. Eat up! </p>
+					<a class="link-button" href="nutrition.html" style="bottom: 20px;"> Learn more</a> <!-- Slight edit to bottom spacing so text fits on all window sizes -->
+				</div>
+			</div>
+		</div>
+		<br />
+		<h1 id="recipes" style="font-weight: bold; text-align: right;"> <span class="yldot">&#8226; </span><span class="gldot">&#8226; </span><span class="gdot">&#8226; </span><span class="ydot">&#8226;   </span> what you can do with them </h1>
+		<br />
+		<div class="row">
+			<div class="col-xl-9 col-lg-6 col-12">
+				<div class="recipe-card" style="background-color: #88cc00;">
+					<h1> easy guacamole </h1>
+					<p> You'll need two avocados, an onion, a clove of garlic, a tomato, a lime, and some salt and pepper. </p>
+					<ol>
+						<li> Mash the avocados in a bowl. </li> 
+						<li> Stir in a chopped onion and a minced clove of garlic. </li>
+						<li> Add in a chopped tomato. </li>
+						<li> Juice a lime and add the lime juice to the mixture. </li>
+						<li> Add salt and pepper as you'd like! </li>
+					</ol>
+					<br />
+					<a class="link-button" href="https://www.allrecipes.com/recipe/14064/easy-guacamole/" target="_blank"> Find the whole recipe and reviews here. </a> </p>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-12">
+				<div class="recipe-image">
+					<img src="https://downshiftology.com/wp-content/uploads/2019/04/Guacamole-3.jpg" alt="Guacamole with chips" width="100%" height="100%;" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-lg-6 col-12">
+				<div class="recipe-image">
+					<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4487253.jpg" alt="Meyer lemon avocado toast" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-9 col-lg-6 col-12">
+				<div class="recipe-card" style="background-color: #aae238;">
+					<h1> meyer lemon avocado toast </h1>
+					<p> You'll need two slices of toast and an avocado. You can also add some cilantro, lemon juice, lemon zest, salt, cayenne pepper, and chia seeds. </p>
+					<ol>
+						<li> Toast the bread to your desired color. </li> 
+						<li> Mash the avocado in a bowl with the other ingredients. </li>
+						<li> Spread across toast! You're done. </li>
+					</ol>
+					<br />
+					<a class="link-button" href="https://www.allrecipes.com/recipe/257457/meyer-lemon-avocado-toast/" target="_blank"> Find the whole recipe and reviews here. </a>
+				</div>
+			</div>
+		</div>
+		<!-- Cards are done; below are sources and contact information -->
+		<br />
+		<div style="text-align: center;">
+			<h1> <span class="yldot">&#8226; </span><span class="gldot">&#8226;   </span>hungry for more information? <span class="gdot">   &#8226; </span><span class="ydot">&#8226;</span></h1>
+			<hr />
+			<p> Here are the sources that I used.</p>
+			<br />
+			<a class="source-button" href="https://en.wikipedia.org/wiki/Avocado" target="_blank"> Wikipedia - Avocados</a> <!-- I know this looks ugly but it was rendering on Safari with a space after which made it not centered -->
+			<br /> <br />
+			<a class="source-button" href="https://www.allrecipes.com/recipes/1367/fruits-and-vegetables/fruits/avocados/" target="_blank"> Avocado Recipes on AllRecipes</a>
+			<br /> <br />
+			<hr />
+			<p> If you want to learn more about this website, contact me: </p>
+			<br />
+			<a class="source-button" target="_blank" href="mailto:eli.browne.23@bishops.com"> Email me! </a> 
+		</div>
+		<br /> <!-- a bit of space at the bottom of the website -->
+		</div>
+	</body>
+</html>

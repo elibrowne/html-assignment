@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Bootstrap Links for JavaScript, popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- CSS -- bootstrap, font I like, local style sheet -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+		<link rel="stylesheet" href="finalstyle.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;900&display=swap" rel="stylesheet">
+		<!-- Other head information -->
+		<meta charset="UTF-8" />
+		<title> Nutrition Facts </title>
+	</head>
+
+	<body>
+		<div class="top-image">
+			<div class="title-text">
+				<h1 style="font-size: 8vw;"> Avocado Nutrition </h1>
+			</div>
+			<div class="learn-more">
+				<a href="#facts"> learn more </a>
+			</div>
+			<div class="discover-recipes">
+				<a href="homepage.html"> go back home </a>
+			</div>
+		</div>
+		<br /> <!-- Todo -- better use of whitespace? -->
+		<br />
+		<br />
+		<div class="container-fluid">
+		<h1 id="facts" style="font-weight: bold;"> nutrients that pack a punch <span class="ydot">   &#8226; </span><span class="gdot">&#8226; </span><span class="gldot">&#8226; </span><span class="yldot">&#8226; </span></h1>
+		<br />
+		<!-- Grid with info/image cards -->
+		<div class="row">
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-card" style="background-color: #88cc00;">
+					<h1> vitamin c </h1>
+					<br />
+					<p> Vitamin C is a super important nutrient. It works as an antioxidant and even heals wounds! A cup of avocado has a quarter of the daily recommended intake. </p>
+					<a class="link-button" href="https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/" target="_blank"> Learn more </a>
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-image">
+					<img src="https://www.gardeningknowhow.com/wp-content/uploads/2017/05/zone-8-avocado.jpg" alt="Avocado growing on a tree" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-card" style="background-color: #e0db2d;">
+					<h1> potassium </h1>
+					<br />
+					<p> Bananas are known for their potassium, but avocados have even more! Potassium helps send nerve signals and regulate muscle contractions. A cup of avocado has 485mg. </p>
+					<a class="link-button" href="https://www.healthline.com/nutrition/what-does-potassium-do" style="background-color: #9b9b0c;" target="_blank"> Learn more </a>
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-image">
+					<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/9/2018/02/avocados-from-mexico-20-years-ft-blog1117.jpg" alt="Multiple avocados without pits" width="100%" height="100%;" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-image">
+					<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/toast-with-avocado-and-cress-royalty-free-image-544809990-1541541433.jpg" alt="Avocados cut and presented" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-card" style="background-color: #b3af24;">
+					<h1> vitamin b5 </h1>
+					<br />
+					<p> A cup of avocado has nearly 30% of the daily recommended vitamin B5. It's a super important vitamin that helps with healthy eyes, the nervous system, and in making red blood cells. </p>
+					<a class="link-button" href="https://www.healthline.com/health/vitamin-watch-what-does-b5-do"  style="background-color: #9b9b0c;" target="_blank"> Learn more </a> <!-- Change in color: dark yellow button on yellow cards. -->
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-image">
+					<img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_3372,w_6000,x_0,y_314/f_auto,q_auto,w_1100/v1554734047/shape/mentalfloss/568503-istock-950322084.jpg" alt="Avocado halves held in hands" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-12">
+				<div class="nutrient-card" style="background-color: #aae238;">
+					<h1> folate </h1>
+					<br />
+					<p> One of the B vitamins, folate is super important. It's needed to make DNA, to split cells, and to convert carbs into energy! A cup of avocado has a fifth of the daily recommended folate intake. </p>
+					<a class="link-button" href="https://ods.od.nih.gov/factsheets/Folate-Consumer/" target="_blank"> Learn more </a>
+				</div>
+			</div>
+		</div>
+		<br />
+		<h1 id="recipes" style="font-weight: bold; text-align: right;"> <span class="yldot">&#8226; </span><span class="gldot">&#8226; </span><span class="gdot">&#8226; </span><span class="ydot">&#8226;   </span> what the studies say </h1>
+		<br />
+		<div class="row">
+			<div class="col-xl-9 col-lg-6 col-12">
+				<div class="recipe-card" style="background-color: #88cc00;">
+					<h1> avocados against osteoporosis </h1>
+					<p> Osteoporosis is a condition in which bones become brittle and easily broken. Avocados contain vitamin K, which has been shown to regulate osteoclast production. This nutrient is super important in keeping bones strong! Vitamin C and Folate have also been shown to have positive impacts on bone health. </p>
+					<br />
+					<a class="link-button" href="https://saveourbones.com/surprising-facts-about-avocados-and-osteoporosis/" target="_blank"> Learn more about osteoporosis here. </a> </p>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-12">
+				<div class="recipe-image">
+					<img src="https://downshiftology.com/wp-content/uploads/2019/04/Guacamole-3.jpg" alt="Guacamole with chips" width="100%" height="100%;" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-lg-6 col-12">
+				<div class="recipe-image">
+					<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4487253.jpg" alt="Meyer lemon avocado toast" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-9 col-lg-6 col-12">
+				<div class="recipe-card" style="background-color: #aae238;">
+					<h1> avocados working to fight cancer </h1>
+					<p> Although they obviously aren't a miracle cancer cure, avocados have been shown to inhibit the growth of certain cancer cells while encouraging lymphocytes, which are immune system cells. Some have suggested that avocados could be used for lowering the side effects of chemotherapy in cancer patients. </p>
+					<br />
+					<a class="link-button" href="https://pubmed.ncbi.nlm.nih.gov/22070054/" target="_blank"> Read a summary here. </a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-9 col-lg-6 col-12">
+				<div class="recipe-card" style="background-color: #88cc00;">
+					<h1> fuel your gut bacteria </h1>
+					<p> Gut bacteria isn't a bad thing: it's super important to our digestive systems! Fiber in avocados promotes the growth of positive gut bacteria, which has a variety of health benefits for digestive health and even in preventing irritable bowel syndrome and Crohn's disease. </p>
+					<br />
+					<a class="link-button" href="https://www.healthline.com/nutrition/why-is-fiber-good-for-you" target="_blank"> Learn more about fiber here. </a> </p>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-12">
+				<div class="recipe-image">
+					<img src="https://downshiftology.com/wp-content/uploads/2019/04/Guacamole-3.jpg" alt="Guacamole with chips" width="100%" height="100%;" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-lg-6 col-12">
+				<div class="recipe-image">
+					<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4487253.jpg" alt="Meyer lemon avocado toast" width="100%" height="100%;" />
+				</div>
+			</div>
+			<div class="col-xl-9 col-lg-6 col-12">
+				<div class="recipe-card" style="background-color: #aae238;">
+					<h1> healthy heart, happy heart </h1>
+					<p> Did you know that fat can be healthy? Monounsaturated fatty acids, which are very prevalent in avocados, are super helpful. Oleic acid, the most common type of fat in avocados, may reduce the risk of coronary heart disease, one of the leading causes of death in the United States. </p>
+					<br />
+					<a class="link-button" href="https://www.fda.gov/food/cfsan-constituent-updates/fda-completes-review-qualified-health-claim-petition-oleic-acid-and-risk-coronary-heart-disease" target="_blank"> Learn more about oleic acid here. </a>
+				</div>
+			</div>
+		</div>
+		<!-- Cards are done; below are sources and contact information -->
+		<br />
+		<div style="text-align: center;">
+			<h1> <span class="yldot">&#8226; </span><span class="gldot">&#8226;   </span>hungry for more information? <span class="gdot">   &#8226; </span><span class="ydot">&#8226;</span></h1>
+			<hr />
+			<p> Here are the sources that I used.</p>
+			<br />
+			<a class="source-button" href="https://en.wikipedia.org/wiki/Avocado" target="_blank"> Wikipedia - Avocados</a> <!-- I know this looks ugly but it was rendering on Safari with a space after which made it not centered -->
+			<br /> <br />
+			<a class="source-button" href="https://www.healthline.com/nutrition/12-proven-benefits-of-avocado" target="_blank"> 12 Avocado Health Benefits</a>
+			<br /> <br />
+			<hr />
+			<p> If you want to learn more about this website, contact me: </p>
+			<br />
+			<a class="source-button" target="_blank" href="mailto:eli.browne.23@bishops.com"> Email me! </a> 
+		</div>
+		<br /> <!-- a bit of space at the bottom of the website -->
+		</div>
+	</body>
+</html>

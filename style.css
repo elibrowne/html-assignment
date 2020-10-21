@@ -1,58 +1,58 @@
+/*
 h1, h2 {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*1*/
-	color: yellowgreen; /*2*/
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	color: yellowgreen; 
 }
 p {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 img {
-	border-radius: 3%; /*3*/
-	border-width: 3px; /*4*/
-	border-color: yellowgreen; /*5*/
-	border-style: solid; /*6*/
+	border-radius: 3%; 
+	border-width: 3px; 
+	border-color: yellowgreen; 
+	border-style: solid; 
 }
 .imgcolumn {
-	flex: 50%; /*7*/
+	flex: 50%;
 }
 li {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 address {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	margin-left: 10px; /*8*/
+	margin-left: 10px;
 }
-
+*/
 .bigbutton:link, .bigbutton:visited {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	background-color: green; /*9*/
+	background-color: #8cba2d; 
 	color: white;
-	padding: 15px 25px; /*10*/
-	text-align: center; /*11*/
-	text-decoration: none; /*12*/
-	display: inline-block; /*13*/
+	padding: 15px 25px; 
+	text-align: center; 
+	text-decoration: none; 
+	display: inline-block; 
 	border-radius: 10px;
 }
 .bigbutton:hover, .bigbutton:active {
-	background-color: yellowgreen;
+	background-color: #acd657;
 }
-
+/*
 .navbar {
-	list-style-type: none; /*14*/
-	margin: 0; /*15*/
+	list-style-type: none; 
+	margin: 0; 
 	padding: 0;
-	overflow: hidden; /*16*/
+	overflow: hidden; 
 	background-color: green;
 	border-radius: 10px;
 }
 .navitem {
-	float: left; /*17*/
+	float: left; 
 }
 .themeswap {
 	float: right;
 	padding: 14px 16px;
 }
 .themebutton {
-	border: none; /* not counting it here but see later */
+	border: none; 
 	background-color: green;
 	border-radius: 3px;
 	color: white;
@@ -75,11 +75,11 @@ address {
 
 table {
 	font-family: Arial, Helvetica, sans-serif;
-	border-collapse: collapse; /*18*/
-	width: 100%; /*19*/
+	border-collapse: collapse; 
+	width: 100%;
 }
 td, th {
-	border: 1px solid #cccccc; /*20*/
+	border: 1px solid #cccccc; 
 	text-align: left;
 	padding: 8px;
 }
@@ -88,6 +88,11 @@ tr:nth-child(even) {
 }
 
 #hg {
-	font-style: italic; /*21*/
+	font-style: italic; 
 	color: green;
+}
+*/
+
+h1, h2, p, a, ul, ol {
+	color: white;
 }
