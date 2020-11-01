@@ -1,6 +1,16 @@
 # Avocado Website
 My HTML webpage assignment is a website about avocados.
 
+## Final project
+The latest commit is probably the one that you should use.<br/>
+1. Design strategy was a grid; each cell has a different type of information. Bigger cells on the bottom are wider and have more detailed information than the little blurbs of info on the top. Images are used to separate the facts and to make the website more digestible.
+2. Background is white. Neighboring cells have different colors to differentiate between different cells. Color scheme was trying to emulate avocado-y colors (green and yellow).
+3. Bootstrap was used to format the grids. 
+4. There is no call to action.
+5. I tried to use good coding habits. I'm sorry if I failed.
+6. I added the nutrition information page -- it's accesible through the "learn more" button. It's a bit tucked away, so only someone interested in the nutrition facts would be very prone to seeing it. On the page, it has a similar layout (but different images) and a very easy-to-see button to go home.
+7. I've checked every size that my browser window goes to, and on every one of them, the webpage is readable and text stays inside of the boxes.
+
 ## Commit to use for HTML
 f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bug, added README")
 
