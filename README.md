@@ -11,11 +11,14 @@ The latest commit is probably the one that you should use.<br/>
 6. I added the nutrition information page -- it's accesible through the "learn more" button. It's a bit tucked away, so only someone interested in the nutrition facts would be very prone to seeing it. On the page, it has a similar layout (but different images) and a very easy-to-see button to go home.
 7. I've checked every size that my browser window goes to, and on every one of them, the webpage is readable and text stays inside of the boxes.
 
+## Commit to use for Bootstrap -- IMPORTANT: I put all of my Bootstrap in the branch "bootstrap". Sorry for any inconvenience; if needed, I can merge it with master. 
+The Bootstrap commit is b8c0769 (it's called like "Added alert, finished five classes").
+
 ## Commit to use for HTML
 f1581ee0f71b7e4e272f0531aa12f333c4889a04 (it's called like "Image alts, fixed bug, added README")
 
 ## Commit to use for CSS
-33fb6c2 (it's called "Edited README a bit")
+638259944680a59c4d325e9cd7880f02372de661 (it's a merge after "OOPS OOPS I MESSED UP")
 
 ## Commit to use for Bootstrap
 b8c0769 (it's called like "Added alert, finished five classes"). **Note:** it is on a new branch called "bootstrap"; it is **not** on the master branch (sorry if that makes things harder! I can merge them if you'd like, but I wanted to separate the two websites)
